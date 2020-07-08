@@ -1,0 +1,134 @@
+*{margin: 0;padding: 0;}
+ul li{list-style: none;}
+a{text-decoration: none;}
+article{
+    width: 65%;
+    margin: auto;
+    margin-top: 100px;
+}
+#d1{
+    display: flex;
+    color: #E73A36;
+    border-bottom: 1px solid #E73A36;
+    width:90px
+}
+#t1{
+    color: #596B7A;
+    background-color: #F2F3F4;
+    border:1px solid #cccccc;
+    width: 1164.8px;
+    height: 50px;
+    text-align: left;
+}
+#t1 th{
+    padding-left: 5px;
+}
+#d2{
+    margin-top: 20px;
+    padding-bottom: 5px;
+}
+#d2 span{
+    color: white;
+    background-color: #E73A36;
+    padding:2px 4px;
+}
+#d3{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#d3 span{
+    margin-left: 20px;
+}
+#d3 span:first-child{
+    display: block;
+    padding: 3px 8px;
+    border: 1px solid #EE9547;
+    color: #EE9547;
+}
+#d3 span:nth-child(2){
+    color: #596B7A;
+}
+#d4{
+    border:1px solid #cccccc;
+    border-top: 3px solid #cccccc;
+}
+#u1{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #cccccc;
+    width: 1164.8px;
+    height: 50px;
+    margin-top: 40px;
+    line-height: 50px;
+    margin-bottom: 100px;
+}
+#span1 {
+    color:#E73A36;
+}
+#span2 {
+    color:#E73A36;
+}
+#li1{
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    position: relative;
+    top: -9px;
+    left: 190px;
+}
+#li1 i{
+    height:20px;
+}
+#li2{
+    font-size: 13px;
+    position: relative;
+    top: -8px;
+    left: 370px;
+}
+#li1 i span{
+    font-size: 20px;
+}
+#li3{
+    height: 50px;
+    width: 80px;
+    background-color: #E73A36;
+    color:white;
+    text-align: center;
+}
+#li4{
+    margin-left: 10px;
+}
+#img1{
+    width: 100px;
+    height: 100px;
+}
+#t2 td{
+    width: 470px;
+    text-align: left;
+}
+#t2 td:nth-child(n+2){
+    text-align: center;
+}
+#t2 img{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #cccccc;
+}
+#t2 td:nth-child(2){
+    display: flex;
+}
+.span3{
+    font-size:12px;
+}
+#t2 td:nth-child(3){
+    text-indent: -107px;
+}
+#t2 td:nth-child(4){
+    text-indent: -88px;
+}
+#t2 td:nth-child(4) input{
+    width: 20px;
+    height: 20px;
+    margin:0 10px;
+}

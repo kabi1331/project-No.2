@@ -1,0 +1,112 @@
+*{margin: 0;padding: 0;}
+ul li{list-style: none;}
+a{text-decoration: none;color: #F1272C;}
+nav{
+    text-align: center;
+    margin-top: 40px;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -42px;
+}
+nav li {
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid #999999;
+    background-color: #999999;
+    margin-right: 30px;
+}
+article{
+    width: 1490px;
+    margin: auto;
+    display: flex;
+    border: 1px solid #cccccc;
+    margin-bottom: 20px;
+}
+article>div:first-child{
+    border-right: 1px solid #CCCCCC;
+    padding: 10px;
+}
+article div:first-child div{
+    border-bottom: 1px solid #CCCCCC;
+}
+article div:first-child span{
+    font-size: 25px;
+}
+article div:first-child p{
+    color: #CCCCCC;
+    position: relative;
+    top: -30px;
+    right: -127px;
+}
+article div:first-child li h2{
+    color: #C40018;
+}
+article div:nth-child(2)>ul{
+    display:grid;
+    grid-template-columns: repeat(4,310px);
+    grid-template-rows: repeat(5,360px);
+    margin-left: 29px;
+}
+article div:nth-child(2) li>ul{
+    display: flex;
+}
+article div:nth-child(2)>ul img{
+    margin-left: 20px;
+}
+article div:nth-child(2)>ul h2{
+    color: #C40018;
+}
+article div:nth-child(2)>ul p{
+    font-size: 15px;
+}
+article div:nth-child(2)>ul li{
+    margin-top: 5px;
+}
+article div:nth-child(2) li>ul li:first-child{
+    display: block;
+    padding: 5px;
+    color:white;
+    background-color: #C40018;
+    border: 1px solid #C40018;
+}
+article div:nth-child(2) li>ul li:nth-child(2){
+    display: block;
+    padding: 5px;
+    color: blue;
+    border: 1px solid blue;
+}
+article div:nth-child(2) li>ul li:last-child{
+    display: block;
+    padding: 5px;
+    color: #C40018;
+    border: 1px solid #C40018;
+}
+article div:nth-child(2) li>ul li{
+    margin-right: 5px;
+}
+article div:nth-child(2)>ul input{
+    background-color: white;
+    border: 1px solid #cccccc;
+    color:#C40018;
+    padding:5px 15px;
+    margin-top: 5px;
+}
+article div:nth-child(2) div{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+article div:nth-child(2) div span{
+    display: block;
+    padding:5px;
+    margin-right: 5px;
+}
+.c1{
+    border: 1px solid #cccccc;
+}

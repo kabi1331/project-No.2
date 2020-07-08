@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/register.css">
+    <script src="js/Jquery.js"></script>
+</head>
+<body onload="inside()">
+    <header>
+        <div>
+            <img src="images/logo.png">
+            <h3>欢迎注册</h3>
+        </div>
+        <div>
+            <span>已有账号</span>
+            <a href="login.html">请登录</a>
+        </div>
+    </header>
+    <article>
+        <form action="">
+            <input type="text" placeholder="手机号或者邮箱" name="username" onchange="checkUsername(this)" id="username" class="inp">
+            <input type="text" placeholder="8-10位数字和英文字母组成的密码" name="password" onchange="checkPassword(this)" id="password" class="inp">
+            <input type="text" placeholder="重复密码" onchange="checkRePassword(this)" class="inp">
+            <input type="button" value="提交注册" id="sub" onclick="submi()">
+            <div>
+                <ul>
+                    <li>关于我们</li>
+                    <li>联系我们</li>
+                    <li>人才招聘</li>
+                    <li>商家入驻</li>
+                    <li>广告服务</li>
+                    <li>手机京东</li>
+                    <li>友情链接</li>
+                    <li>销售联盟</li>
+                    <li>京东社区</li>
+                    <li>京东工艺</li>
+                    <li>English Site</li>
+                </ul>
+                <span>Ccopyright&copy;2004-2020京东JD.com版权所有</span>
+            </div>
+        </form>
+    </article>
+    <script src="js/configuration.js"></script>
+    <script src="js/register.js"></script>
+</body>
+</html>
